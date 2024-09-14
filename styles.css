@@ -230,3 +230,31 @@ text-align: center;
     display: none;
   }
 }
+
+h1 span {
+  color: #ff0000;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  border: none;
+}
+
+textarea, input {
+  background-color: #e0e0e0;
+  border: none;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #888888;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #ff0000;
+}
